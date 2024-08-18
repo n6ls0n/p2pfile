@@ -19,9 +19,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "rootDir": "src",
   },
-  "include": [
-    "src"
+  "exclude": [
+    "old/",
+    "node_modules",
+    "*.config.js",
+    "src/tests/**/*",
+    "dist/**/*",
+    "src/temp*.js",
+    "public/**/*"
   ]
 }
