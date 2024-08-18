@@ -3,7 +3,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.ts', // Update the entry point to src/index.ts
+    entry: './src/index.tsx', // Update the entry point to src/index.ts
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
@@ -33,11 +33,12 @@ module.exports = {
         noParse: [/jest\.config\.js/],
     },
     resolve: {
-        extensions: ['.ts', '.js', 'tsx'], // Add TypeScript file extension to resolve
+        extensions: ['.ts', '.js', '.tsx'], // Add TypeScript file extension to resolve
     },
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html', // Update the template path to src/index.html
+            favicon: './public/favicon.ico',
         }),
     ],
     devServer: {
