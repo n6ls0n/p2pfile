@@ -4,6 +4,10 @@
 
 - Copy & Run the full code
 
-- Add manifest.json & figure out how to use this file public/site.webmanifest
+- Figure out how to use webVitals
+
+- Add manifest.json <https://developers.google.com/web/fundamentals/web-app-manifest/>
+
+- Figure out how to use this file public/site.webmanifest
 
 - Add robots.txt
