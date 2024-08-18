@@ -1,9 +1,9 @@
 # ROADMAP
 
-- Setup webpack
+- Copy & run bare minimum code
 
-- Setup Tailwind
+- Copy & Run the full code
 
-- Copy bare minimum code
+- Add manifest.json & figure out how to use this file public/site.webmanifest
 
--
+- Add robots.txt
